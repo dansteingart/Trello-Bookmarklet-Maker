@@ -15,7 +15,8 @@ window.saveTrelloCard = (idList, key, token) ->
     data:
       key: key
       token: token
-      name: if document.title == "" then "<none>" else document.title
+      #DS FOO
+      name: document.title === "" ? "<none>" : document.title.substring(0,document.title.search(/ - .*@gmail.com/))
       desc: document.location.href
       idList: idList
     dataType: "json"
