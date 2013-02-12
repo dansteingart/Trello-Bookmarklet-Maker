@@ -10,3 +10,6 @@ Then, pick the board and list you want the cards to appear on, and drag the link
 You can try it [here](http://thedufer.github.com/Trello-Bookmarklet-Maker).
 
 The code is [here](https://github.com/thedufer/Trello-Bookmarklet-Maker/tree/gh-pages).
+
+_______________________________________
+edited by DS to play nicely with gmail: strips out everything after the subject for cleaner card titles (when bookmarkleting gmail pages)
