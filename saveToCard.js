@@ -26,7 +26,7 @@
         token: token,
         //name: document.title === "" ? "<none>" : document.title,
         //DS FOO
-        name: document.title === "" ? "<none>" : document.title.substring(0,document.title.search(/ - .*@gmail.com/))
+        name: document.title === "" ? "<none>" : document.title.substring(0,document.title.search(/ - .*@gmail.com/)),
         desc: document.location.href,
         idList: idList
       },
