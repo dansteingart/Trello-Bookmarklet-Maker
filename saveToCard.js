@@ -24,7 +24,9 @@
       data: {
         key: key,
         token: token,
-        name: document.title === "" ? "<none>" : document.title,
+        //name: document.title === "" ? "<none>" : document.title,
+        //DS FOO
+        name: document.title === "" ? "<none>" : document.title.substring(0,document.title.search(/ - .*@gmail.com/))
         desc: document.location.href,
         idList: idList
       },
